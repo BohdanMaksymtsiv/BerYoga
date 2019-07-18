@@ -1,0 +1,362 @@
+@media screen and (max-width: 575.98px) {
+
+  .description_row{
+    height: 700px !important;
+  }
+  .WhyChoose_row{
+    height: 1700px!important;
+  }
+  .WhatsOn_section{
+    height: 1100px!important;
+    .mediaImage{
+      height: 90%;
+      width: 90%;
+    }
+  }
+  .Power_section{
+    height: 1100px!important;
+    .mediaImage{
+      height: 90%;
+      width: 90%;
+    }
+  }
+  .Ways_section{
+    height: 1800px!important;
+    .mediaImage{
+      height: 90%;
+      width: 90%;
+    }
+  }
+  .Seller_section{
+    height: 2000px!important;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .description_row{
+
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .description_row{
+
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  
+}
+
+
+body{
+  background: url("../img/Big_background.png") center center no-repeat;
+  height: 6690px;
+  width: 100%;
+  background-size: cover;
+  font-family: 'fivo_sansregular', sans-serif;
+
+  .logo{
+    font-family: 'fivo_sansheavy', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: #ff6a6d;
+
+    &:hover{
+      color: #ff050a;
+    }
+  }
+  a{
+    font-family: 'fivo_sansregular', sans-serif;
+    font-size: 18px;
+    letter-spacing: .05em;
+    line-height: 36px;
+    color: #1c2056;
+
+    &:hover{
+      color: #ff6a6d;
+
+    }
+    &.active{
+      font-weight: 700;
+      color: #ff6a6d;
+    }
+  }
+  .login_btn{
+    background-color: #ff6a6d;
+    border: 0;
+    font-size: 18px;
+    letter-spacing: .05em;
+    line-height: 36px;
+
+    &:hover{
+      background-color: #ff050a;
+      -webkit-box-shadow: -18px 15px 54px 6px rgba(255,0,5,0.19);
+      -moz-box-shadow: -18px 15px 54px 6px rgba(255,0,5,0.19);
+      box-shadow: -18px 15px 54px 6px rgba(255,0,5,0.19);
+    }
+  }
+  .container{
+    .description_row {
+      height: 100vh;
+      max-height: 1000px;
+      .title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        color: #3b3838;
+      }
+      .description{
+        font-family: 'fivo_sanslight', sans-serif;
+        font-size: 18px;
+        line-height: 40px;
+      }
+      .service_btn{
+        font-size: 20px;
+        line-height: 50px;
+        color: #f82a56;
+
+        &:hover{
+          background-color: #ff6a6d;
+          border-color: #ff6a6d;
+          color: #ffffff;
+          -webkit-box-shadow: -6px 13px 24px 1px rgba(226,88,91,0.45);
+          -moz-box-shadow: -6px 13px 24px 1px rgba(226,88,91,0.45);
+          box-shadow: -6px 13px 24px 1px rgba(226,88,91,0.45);
+        }
+      }
+      .signUp_btn{
+        font-size: 20px;
+        line-height: 50px;
+        color: #f82a56;
+
+        &:hover{
+          background-color: #ff6a6d;
+          border-color: #ff6a6d;
+          color: #ffffff;
+          -webkit-box-shadow: -6px 13px 24px 1px rgba(226,88,91,0.45);
+          -moz-box-shadow: -6px 13px 24px 1px rgba(226,88,91,0.45);
+          box-shadow: -6px 13px 24px 1px rgba(226,88,91,0.45);
+        }
+      }
+    }
+  }
+  .WhyChoose_container{
+    .WhyChoose_row{
+      height: 100vh;
+      min-height: 1000px;
+      .title{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        color: #3b3838;
+      }
+      .subTitle{
+        font-family: 'fivo_sanslight', sans-serif;
+        font-size: 18px;
+        line-height: 40px;
+        color: #3b3838;
+      }
+      .card-title{
+        font-family: 'fivo_sansregular', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 60px;
+        color: #3b3838;
+      }
+      .card-text{
+        font-family: 'fivo_sanslight', sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px;
+      }
+    }
+  }
+  .WhatsOn_section{
+    height: 80vh;
+    min-height: 1000px;
+    .title{
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 60px;
+      color: #3b3838;
+    }
+    .subTitle{
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 40px;
+      color: #3b3838;
+    }
+    .description{
+      font-family: 'fivo_sanslight', sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 40px;
+    }
+  }
+  .Power_section{
+    height: 80vh;
+    min-height: 1000px;
+    .author{
+      font-family: 'fivo_sansitalic', sans-serif;
+      font-size: 20px;
+      line-height: 40px;
+    }
+    .title{
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 60px;
+      color: #3b3838;
+    }
+    .description{
+      font-family: 'fivo_sanslight', sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 40px;
+    }
+    .readMore_btn{
+      font-family: 'fivo_sansitalic', sans-serif;
+      font-size: 20px;
+      line-height: 40px;
+      color: #3cbef1;
+    }
+  }
+  .Ways_section{
+    height: 100vh;
+    min-height: 1000px;
+    .title{
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 60px;
+      color: #3b3838;
+    }
+    .description{
+      text-indent: 50px;
+      font-family: 'fivo_sanslight', sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 40px;
+    }
+    .readMore_btn{
+      font-family: 'fivo_sansitalic', sans-serif;
+      font-size: 20px;
+      line-height: 40px;
+      color: #3cbef1;
+    }
+  }
+  .Seller_section{
+    height: 100vh;
+    min-height: 1000px;
+    .sellCard{
+      border-radius: 15px;
+      background: #ffffff;
+
+      &:hover{
+        -webkit-box-shadow: -37px 37px 136px 0px rgba(255,106,109,0.19);
+        -moz-box-shadow: -37px 37px 136px 0px rgba(255,106,109,0.19);
+        box-shadow: -37px 37px 136px 0px rgba(255,106,109,0.19);
+      }
+      .title_YogaClass{
+        font-family: 'fivo_sansregular', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: #6d6d6d;
+      }
+      .title_sell {
+        text-transform: uppercase;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 100%;
+        background-color: #ff6a6d;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 70px;
+        color: #fbfcfc;
+      }
+      .subTitle{
+        font-family: 'fivo_sansregular', sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+        color: #6d6d6d;
+      }
+      .price{
+        font-family: 'fivo_sansregular', sans-serif;
+        font-size: 150px;
+        line-height: 150px;
+        color: #6c6a6a;
+
+        .sup{
+          font-size: 48px;
+          vertical-align: top;
+          line-height: 30px;
+        }
+        span{
+          font-size: 30px;
+          line-height: 30px;
+        }
+      }
+      .price_description{
+        font-family: 'fivo_sansitalic', sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+        color: #6c6a6a;
+      }
+      .become_btn{
+        background-color: #ff6a6d;
+        font-family: 'fivo_sansregular', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 50px;
+
+        &:hover{
+          -webkit-box-shadow: -21px 21px 24px 2px rgba(226,88,91,0.29);
+          -moz-box-shadow: -21px 21px 24px 2px rgba(226,88,91,0.29);
+          box-shadow: -21px 21px 24px 2px rgba(226,88,91,0.29);
+        }
+
+      }
+      .become_btn_blue{
+
+        background: rgb(95,206,245);
+        background: linear-gradient(66deg, rgba(95,206,245,1) 0%, rgba(131,228,252,1) 96%);
+        font-family: 'fivo_sansregular', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 50px;
+
+        &:hover{
+          -webkit-box-shadow: -21px 21px 24px 2px rgba(95,206,244,0.29);
+          -moz-box-shadow: -21px 21px 24px 2px rgba(95,206,244,0.29);
+          box-shadow: -21px 21px 24px 2px rgba(95,206,244,0.29);
+        }
+      }
+    }
+  }
+  .footer{
+    background: url("../img/Rectangle.png") center center no-repeat;
+    background-size: cover;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    width: 100%;
+
+    .subTitle{
+      font-family: 'fivo_sansregular', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 18px;
+      line-height: 30px;
+      color: #56686c;
+    }
+    .item{
+      font-family: 'fivo_sansregular', sans-serif;
+      font-size: 14px;
+      line-height: 30px;
+      color: #56686c;
+    }
+    .copyrights{
+      font-family: 'fivo_sansregular', sans-serif;
+      font-size: 18px;
+      line-height: 36px;
+      letter-spacing: .1em;
+      color: #56686c;
+    }
+  }
+}
